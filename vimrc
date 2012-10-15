@@ -6,6 +6,8 @@
 
 "	Plugin pathogen (automatizacion de la instalacion de Plugins)
 call pathogen#infect()
+#call
+#call
 
 "	Configuraciones generales
 set nocompatible
@@ -21,6 +23,8 @@ set ruler
 set incsearch
 set hlsearch
 
+"	Encripcion
+set cryptmethod=blowfish
 
 "	Maps
 let mapleader = ','
