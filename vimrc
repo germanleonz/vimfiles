@@ -17,6 +17,8 @@ set number
 set ruler
 
 "	Indentacion
+set shiftwidth=4
+set softtab=4
 
 
 "	Busquedas
