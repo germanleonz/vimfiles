@@ -13,3 +13,24 @@
 [submodule "bundle/snipMate"]
 	path = bundle/snipMate
 	url = https://github.com/garbas/vim-snipmate.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = https://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/matchIt"]
+	path = bundle/matchIt
+	url = https://github.com/tsaleh/vim-matchit.git
+[submodule "bundle/bufExplorer"]
+	path = bundle/bufExplorer
+	url = https://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/tagBar"]
+	path = bundle/tagBar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle/repeat"]
+	path = bundle/repeat
+	url = https://github.com/tpope/vim-repeat.git
