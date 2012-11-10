@@ -1,11 +1,11 @@
 "
 "	Vim Runtime Configuration File
 "	.vimrc
-"	Debian 6.0.6
 "
 
 "	Plugin pathogen (automatizacion de la instalacion de Plugins)
 call pathogen#infect()
+"call pathogen#runtime_append_all_bundles
 call pathogen#helptags()
 
 "	Configuraciones generales
