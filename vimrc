@@ -46,7 +46,7 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 "	Maps
 let mapleader = ','
 nmap <silent> <F2> :NERDTreeToggle<CR>
-nmap <silent> <F3> :TlistToggle<CR>
+nmap <silent> <F3> :TagbarToggle<CR>
 nmap <silent> <F4> <leader>be
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
