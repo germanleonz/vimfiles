@@ -50,3 +50,7 @@ nmap <silent> <F3> :TagbarToggle<CR>
 nmap <silent> <F4> <leader>be
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
+inoremap    {       {}<Left>
+inoremap    {<CR>   {<CR>}<Esc>O
+inoremap    {{       {
+inoremap    {}      {}
