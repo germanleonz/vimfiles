@@ -15,6 +15,7 @@ filetype on
 filetype plugin indent on
 set number
 set ruler
+set cursorline
 set showcmd
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set history=1000
@@ -40,7 +41,10 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
-"	Encripcion
+"   Carpetas para los backups y los swap files
+set backupdir=~/.vim_backup
+
+"	Cifrado (solo Vim >= 7.3)
 "set cryptmethod=blowfish
 
 "	Maps
@@ -50,8 +54,8 @@ nmap <silent> <F3> :TagbarToggle<CR>
 nmap <silent> <F4> <leader>be
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
-"   Maps sobre parentesis, llaves, etc
-inoremap    {       {}<Left>
-inoremap    {<CR>   {<CR>}<Esc>O
-inoremap    {{       {
-inoremap    {}      {}
+""   Maps sobre parentesis, llaves, etc
+"inoremap    {       {}<Left>
+"inoremap    {<CR>   {<CR>}<Esc>O
+"inoremap    {{       {
+"inoremap    {}      {}
