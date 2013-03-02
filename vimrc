@@ -45,7 +45,9 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 set backupdir=~/.vim_backup
 
 "	Cifrado (solo Vim >= 7.3)
-"set cryptmethod=blowfish
+if version >= 703
+    set cryptmethod=blowfish
+endif 
 
 "	Maps
 let mapleader = ','
@@ -54,6 +56,7 @@ nmap <silent> <F3> :TagbarToggle<CR>
 nmap <silent> <F4> <leader>be
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
+
 ""   Maps sobre parentesis, llaves, etc
 "inoremap    {       {}<Left>
 "inoremap    {<CR>   {<CR>}<Esc>O
