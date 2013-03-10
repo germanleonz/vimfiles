@@ -13,9 +13,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/pyflakes"]
-	path = bundle/pyflakes
-	url = https://github.com/kevinw/pyflakes-vim.git
 [submodule "bundle/matchIt"]
 	path = bundle/matchIt
 	url = https://github.com/tsaleh/vim-matchit.git
@@ -34,3 +31,9 @@
 [submodule "bundle/snipMate"]
 	path = bundle/snipMate
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = https://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/zencoding-vim"]
+	path = bundle/zencoding-vim
+	url = https://github.com/mattn/zencoding-vim.git

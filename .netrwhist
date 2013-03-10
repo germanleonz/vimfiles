@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/germanleonz/.vim/bundle/snipMate/snippets'
-let g:netrw_dirhist_2='/home/germanleonz/.vim/after'
-let g:netrw_dirhist_3='/home/germanleonz/NetBeansProjects/MyStrutsApp/build'
-let g:netrw_dirhist_4='/home/germanleonz'
-let g:netrw_dirhist_5='/home/germanleonz/.vim/bundle'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/germanleonz/.vim/.git'
+let g:netrw_dirhist_2='/home/germanleonz/Python/Projects/software2/projecto_pizarras'
+let g:netrw_dirhist_3='/home/germanleonz/Python/Projects/software2/app_usuarios/management/commands'
+let g:netrw_dirhist_4='/home/germanleonz/Python/Projects/software2/app_usuarios/static'
+let g:netrw_dirhist_5='/home/germanleonz/Python/Projects/software2/apache'
+let g:netrw_dirhist_6='/home/germanleonz/Python/Projects/software2/templates'
+let g:netrw_dirhist_7='/etc/apache2/sites-available'

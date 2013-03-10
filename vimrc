@@ -22,6 +22,10 @@ set history=1000
 set undolevels=1000
 set wildignore=*.swp,*.bak,*.pyc,*.class
 
+"   Folding
+set foldmethod=indent
+set foldlevel=99
+
 "	Indentacion
 set expandtab       "Usa softtabs las tabs se vuelven espacios
 set tabstop=4       "Los tabs seran de cuatro espacios

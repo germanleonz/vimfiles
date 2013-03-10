@@ -15,4 +15,6 @@ Archivos de configuracion y plugins de VIM
 
     git submodule init && git submodule update
 
-
+- Para actualizar los plugins
+    
+    git submodule foreach git pull origin master
