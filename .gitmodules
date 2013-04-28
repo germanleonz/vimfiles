@@ -34,6 +34,9 @@
 [submodule "bundle/snipMate"]
 	path = bundle/snipMate
 	url = https://github.com/msanders/snipmate.vim.git
-[submodule "/home/cronos/.vim/bundle/syntastic"]
-	path = /home/cronos/.vim/bundle/syntastic
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/haskellmode-vim"]
+	path = bundle/haskellmode-vim
+	url = https://github.com/lukerandall/haskellmode-vim.git

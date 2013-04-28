@@ -62,3 +62,8 @@ nmap <silent> <leader>sv :source $MYVIMRC<CR>
 "inoremap    {<CR>   {<CR>}<Esc>O
 "inoremap    {{       {
 "inoremap    {}      {}
+
+"   HaskellMode
+au BufEnter *.hs compiler ghc
+"let g:haddock_browser = "path to browser"
+
