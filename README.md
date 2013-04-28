@@ -15,4 +15,7 @@ Archivos de configuracion y plugins de VIM
 
     git submodule init && git submodule update
 
+- Para agregar un nuevo submodule o plugin  
+  
+    git submodule add https://github.com/usuario/plugin.git bundle/plugin
 
