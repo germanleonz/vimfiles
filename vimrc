@@ -15,6 +15,7 @@ filetype on
 filetype plugin indent on
 set number
 set ruler
+set cursorline
 set showcmd
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set history=1000
@@ -23,8 +24,8 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 
 "	Indentacion
 set expandtab       "Usa softtabs las tabs se vuelven espacios
-set tabstop=2       "Los tabs seran de cuatro espacios
-set shiftwidth=2    "Indenta usando cuatro espacios 
+set tabstop=4       "Los tabs seran de cuatro espacios
+set shiftwidth=4    "Indenta usando cuatro espacios 
 set smartindent
 set autoindent
 
@@ -40,8 +41,13 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
-"	Encripcion
-"set cryptmethod=blowfish
+"   Carpetas para los backups y los swap files
+set backupdir=~/.vim_backup
+
+"	Cifrado (solo Vim >= 7.3)
+if version >= 703
+    set cryptmethod=blowfish
+endif 
 
 "	Maps
 let mapleader = ','
@@ -50,17 +56,18 @@ nmap <silent> <F3> :TagbarToggle<CR>
 nmap <silent> <F4> <leader>be
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
+
 "   Maps sobre parentesis, llaves, etc
 inoremap    {       {}<Left>
 inoremap    {<CR>   {<CR>}<Esc>O
 inoremap    {{       {
 inoremap    {}      {}
 
-" Elimina ultima highlight de search
-
-nnoremap <F5> :set hlsearch!<CR>
-
 " Config de Zencoding
 
 let g:user_zen_expandabbr_key = '<c-e>' 
 let g:use_zen_complete_tag = 1
+
+"   HaskellMode
+au BufEnter *.hs compiler ghc
+"let g:haddock_browser = "path to browser"
