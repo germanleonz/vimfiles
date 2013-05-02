@@ -23,8 +23,8 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 
 "	Indentacion
 set expandtab       "Usa softtabs las tabs se vuelven espacios
-set tabstop=4       "Los tabs seran de cuatro espacios
-set shiftwidth=4    "Indenta usando cuatro espacios 
+set tabstop=2       "Los tabs seran de cuatro espacios
+set shiftwidth=2    "Indenta usando cuatro espacios 
 set smartindent
 set autoindent
 
@@ -55,3 +55,12 @@ inoremap    {       {}<Left>
 inoremap    {<CR>   {<CR>}<Esc>O
 inoremap    {{       {
 inoremap    {}      {}
+
+" Elimina ultima highlight de search
+
+nnoremap <F5> :set hlsearch!<CR>
+
+" Config de Zencoding
+
+let g:user_zen_expandabbr_key = '<c-e>' 
+let g:use_zen_complete_tag = 1
