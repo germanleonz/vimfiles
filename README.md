@@ -18,3 +18,8 @@ Archivos de configuracion y plugins de VIM
 - Para actualizar los plugins
     
     git submodule foreach git pull origin master
+
+- Para agregar un nuevo submodule o plugin  
+  
+    git submodule add https://github.com/usuario/plugin.git bundle/plugin
+
