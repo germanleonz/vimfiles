@@ -74,4 +74,4 @@ inoremap    {}      {}
 
 "   HaskellMode
 au BufEnter *.hs compiler ghc
-"let g:haddock_browser = "path to browser"
+let g:haddock_browser = "/usr/bin/iceweasel"
