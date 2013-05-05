@@ -43,3 +43,6 @@
 [submodule "bundle/haskellmode-vim"]
 	path = bundle/haskellmode-vim
 	url = https://github.com/lukerandall/haskellmode-vim.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
