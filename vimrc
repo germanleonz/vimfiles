@@ -77,3 +77,4 @@ let g:haddock_browser = "/usr/bin/iceweasel"
 
 "   Colorscheme
 colorscheme vividchalk
+set bg=dark
