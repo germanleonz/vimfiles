@@ -60,6 +60,12 @@ nmap <silent> <F3> :TagbarToggle<CR>
 nmap <silent> <F4> <leader>be
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
+if exists (":Tabularize")
+    nmap <Leader>a= :Tab /=<CR>
+    vmap <Leader>a= :Tab /=<CR>
+    nmap <Leader>a: :Tab /:\zs<CR>
+    vmap <Leader>a: :Tab /:\zs<CR>
+endif
 
 "   Maps sobre parentesis, llaves, etc
 inoremap    {       {}<Left>
