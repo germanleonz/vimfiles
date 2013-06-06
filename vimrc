@@ -60,6 +60,7 @@ let mapleader = ','
 nmap <silent> <F2> :NERDTreeToggle<CR>
 nmap <silent> <F3> :TagbarToggle<CR>
 nmap <silent> <F4> <leader>be
+nnoremap <F5> :GundoToggle<CR>
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
 if exists (":Tabularize")
