@@ -13,6 +13,7 @@ set nocompatible
 syntax on
 filetype on
 filetype plugin indent on
+filetype plugin on
 set number
 set ruler
 set cursorline
@@ -40,6 +41,7 @@ set ignorecase
 set smartcase
 
 "   Funciones de omnicompletacion
+set omnifunc=syntaxcomplete#Complete
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
@@ -61,10 +63,10 @@ nmap <silent> <F4> <leader>be
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
 if exists (":Tabularize")
-    nmap <Leader>a= :Tab /=<CR>
-    vmap <Leader>a= :Tab /=<CR>
-    nmap <Leader>a: :Tab /:\zs<CR>
-    vmap <Leader>a: :Tab /:\zs<CR>
+    nmap <silent> <Leader>a= :Tab /=<CR>
+    vmap <silent> <Leader>a= :Tab /=<CR>
+    nmap <silent> <Leader>a: :Tab /:\zs<CR>
+    vmap <silent> <Leader>a: :Tab /:\zs<CR>
 endif
 
 "   Maps sobre parentesis, llaves, etc
