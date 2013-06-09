@@ -43,6 +43,9 @@ set smartcase
 "   Funciones de omnicompletacion
 set omnifunc=syntaxcomplete#Complete
 autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType ruby set omnifunc=rubycomplete#Complete
+autocmd FileType java set omnifunc=javacomplete#Complete
+autocmd FileType java set completefunc=javacomplete#CompleteParamsInfo
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
@@ -63,18 +66,16 @@ nmap <silent> <F4> <leader>be
 nnoremap <F5> :GundoToggle<CR>
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
-if exists (":Tabularize")
-    nmap <silent> <Leader>a= :Tab /=<CR>
-    vmap <silent> <Leader>a= :Tab /=<CR>
-    nmap <silent> <Leader>a: :Tab /:\zs<CR>
-    vmap <silent> <Leader>a: :Tab /:\zs<CR>
-endif
+nmap <silent> <Leader>a= :Tab /=<CR>
+vmap <silent> <Leader>a= :Tab /=<CR>
+nmap <silent> <Leader>a: :Tab /:\zs<CR>
+vmap <silent> <Leader>a: :Tab /:\zs<CR>
 
 "   Maps sobre parentesis, llaves, etc
-inoremap    {       {}<Left>
-inoremap    {<CR>   {<CR>}<Esc>O
-inoremap    {{       {
-inoremap    {}      {}
+"inoremap    {       {}<Left>
+"inoremap    {<CR>   {<CR>}<Esc>O
+"inoremap    {{       {
+"inoremap    {}      {}
 
 "   Config de Zencoding
 "let g:user_zen_expandabbr_key = '<c-e>' 
