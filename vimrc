@@ -42,7 +42,8 @@ set smartcase
 
 "   Funciones de omnicompletacion
 set omnifunc=syntaxcomplete#Complete
-autocmd FileType python set omnifunc=pythoncomplete#Complete
+"autocmd FileType python set omnifunc=pythoncomplete#Complete
+"autocmd FileType python set completefunc=pythoncomplete#CompleteParamsInfo
 autocmd FileType ruby set omnifunc=rubycomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete
 autocmd FileType java set completefunc=javacomplete#CompleteParamsInfo
