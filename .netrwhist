@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/preg/10-10757/taller'
+let g:netrw_dirhist_2='/home/juan/repositories/rails/lea/lea_app/config'
+let g:netrw_dirhist_3='/home/juan/repositories/rails/lea/lea_app'
+let g:netrw_dirhist_4='/home/juan/repositories/haskell/batalla_pokemon/PlanB'
+let g:netrw_dirhist_5='/home/juan/repositories/rails/lea/lea_info/app/views/layouts'
+let g:netrw_dirhist_6='/home/juan/repositories/rails/martha/app_documento/app/views/correos_usuario'
+let g:netrw_dirhist_7='/home/juan/repositories/rails/martha/app_documento/app/controllers'
+let g:netrw_dirhist_8='/home/juan/repositories/rails/martha/app_documento/app/views'
+let g:netrw_dirhist_9='/home/juan/repositories/rails/martha/app_documento/app/controllers'
