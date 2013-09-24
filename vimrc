@@ -71,6 +71,14 @@ nmap <silent> <Leader>a= :Tab /=<CR>
 vmap <silent> <Leader>a= :Tab /=<CR>
 nmap <silent> <Leader>a: :Tab /:\zs<CR>
 vmap <silent> <Leader>a: :Tab /:\zs<CR>
+map<Leader>w :w!<cr>
+map<Leader>h :noh<cr>
+map<Leader>n :NERDTreeToggle<CR>
+map<Leader>s <C-w>w
+map<leader>p :set paste<cr>
+map <leader>a :badd
+
+set ff=dos
 
 "   Maps sobre parentesis, llaves, etc
 "inoremap    {       {}<Left>
@@ -87,5 +95,5 @@ au BufEnter *.hs compiler ghc
 let g:haddock_browser = "/usr/bin/iceweasel"
 
 "   Colorscheme
-colorscheme vividchalk
+colorscheme delek
 set bg=dark
