@@ -35,4 +35,9 @@ map <leader>a :badd
 map <leader>s vaw
 
 " Git
-map <leader>ga 
+map <leader>ga :Gw
+map <leader>gc :Gcommit
+
+" Fold
+map <leader>c :foldclose
+map  <leader>o :foldopen
