@@ -1,6 +1,9 @@
+"
 "	Maps
+"
 
 let mapleader = ','
+
 nnoremap <F5> :GundoToggle<CR>
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
@@ -20,10 +23,21 @@ map<Leader>w :w!<cr>
 map<Leader>h :noh<cr>
 
 " Desplegar NERDTree
-map<Leader>n :NERDTreeToggle<CR>
+if has('unix')
+    map <silent> <F2> :NERDTreeToggle<CR>
+elseif has('mac')
+    map <Leader>n :NERDTreeToggle<CR>
+endif
 
 " Desplegar TagbarToggle
-nmap <Leader> <t> :TagbarToggle<CR>
+if has('unix') 
+    nmap <silent> <F3> :TagbarToggle<CR>
+elseif has('mac')
+    nmap <silent> <Leader> <t> :TagbarToggle<CR>
+endif
+
+" Desplegar Buffer Explorer
+nmap <silent> <F4> <leader>be
 
 " Set paste
 map<leader>p :set paste<cr>
@@ -35,8 +49,8 @@ map <leader>a :badd
 map <leader>s vaw
 
 " Git
-map <leader>ga :Gw
-map <leader>gc :Gcommit
+map <leader>gw :Gw<CR>
+map <leader>gc :Gcommit<CR>
 
 " Fold
 map <leader>c :foldclose

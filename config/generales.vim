@@ -3,7 +3,11 @@
 "
 
 "   Colorscheme
-colorscheme delek
+if has('unix') 
+    colorscheme vividchalk
+elseif has('mac')
+    colorscheme delek
+endif
 set bg=dark
 
 syntax on
@@ -42,4 +46,3 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 if version >= 703
     set cryptmethod=blowfish
 endif 
-
