@@ -53,5 +53,5 @@ map <leader>gw :Gw<CR>
 map <leader>gc :Gcommit<CR>
 
 " Fold
-map <leader>c :foldclose
-map  <leader>o :foldopen
+map <leader>c :foldclose<CR>
+map  <leader>o :foldopen<CR>
