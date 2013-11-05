@@ -49,9 +49,19 @@ map <leader>a :badd
 map <leader>s vaw
 
 " Git
-map <leader>gw :Gw<CR>
-map <leader>gc :Gcommit<CR>
+if has('unix')
+    map <leader>gw :Gw<CR>
+    map <leader>gc :Gcommit<CR>
+elseif has('mac')
+    map <leader>ga :Gw<CR>
+    map <leader>gc :Gcommit<CR>
+endif
 
 " Fold
-map <leader>c :foldclose<CR>
-map  <leader>o :foldopen<CR>
+if has('unix')
+    map <leader> fc :foldclose<CR>
+    map <leader> fo :foldopen<CR>
+elseif has('mac')
+    map <leader> c :foldclose<CR>
+    map <leader> o :foldopen<CR>
+endif
