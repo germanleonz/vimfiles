@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/preg/10-10757/taller'
+let g:netrw_dirhist_2='/Users/javier/.vim'
+let g:netrw_dirhist_3='/opt/jboss-as-7.1.1.Final'
+let g:netrw_dirhist_4='/Users/javier/.ssh'
+let g:netrw_dirhist_5='/Volumes/Datos/ALTARGET/INFO'
+let g:netrw_dirhist_6='/Users/javier/.vim/bundle/snipMate'

@@ -1,17 +1,17 @@
 vimfiles
 ========
 
-Archivos de configuracion y plugins de VIM
+Archivos de configuración y plugins de VIM
 
-- Instalacion:  
+- Instalación:  
 
     git clone https://github.com/germanleonz/vimfiles.git ~/.vim
 
-- Crear enlace para el archivo de configuracion 
+- Crear enlace para el archivo de configuración 
 
     ln -s ~/.vim/vimrc ~/.vimrc
 
-- En la carpeta raiz    
+- En la carpeta raíz    
 
     git submodule init && git submodule update
 
