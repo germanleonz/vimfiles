@@ -70,9 +70,6 @@
 [submodule "bundle/vim-eighties"]
 	path = bundle/vim-eighties
 	url = git://github.com/justincampbell/vim-eighties.git
-[submodule "bundle/vim-latex-live-preview"]
-	path = bundle/vim-latex-live-preview
-	url = https://github.com/xuhdev/vim-latex-live-preview
 [submodule "bundle/Align"]
 	path = bundle/Align
 	url = https://github.com/vim-scripts/Align
