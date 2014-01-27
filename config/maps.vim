@@ -18,6 +18,7 @@ vmap <silent> <Leader>a: :Tab /:\zs<CR>
 
 " Guardar
 map<Leader>w :w!<cr>
+map <leader>= ma<CR>:0<CR>gg=G<CR>'a
 
 " Quitar sombreado
 map<Leader>h :noh<cr>

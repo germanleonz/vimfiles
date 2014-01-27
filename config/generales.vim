@@ -3,11 +3,7 @@
 "
 
 "   Colorscheme
-if has('unix') 
-    colorscheme vividchalk
-elseif has('mac')
-    colorscheme delek
-endif
+colorscheme delek
 set bg=dark
 
 syntax on
