@@ -24,18 +24,10 @@ map <leader>= ma<CR>:0<CR>gg=G<CR>'a
 map<Leader>h :noh<cr>
 
 " Desplegar NERDTree
-if has('unix')
-    map <silent> <F2> :NERDTreeToggle<CR>
-elseif has('mac')
-    map <Leader>n :NERDTreeToggle<CR>
-endif
+map <Leader>n :NERDTreeToggle<CR>
 
 " Desplegar TagbarToggle
-if has('unix') 
-    nmap <silent> <F3> :TagbarToggle<CR>
-elseif has('mac')
-    nmap <silent> <Leader> <t> :TagbarToggle<CR>
-endif
+nmap <silent> <Leader> <t> :TagbarToggle<CR>
 
 " Desplegar Buffer Explorer
 nmap <silent> <F4> <leader>be
@@ -50,19 +42,10 @@ map <leader>a :badd
 map <leader>s vaw
 
 " Git
-if has('unix')
-    map <leader>gw :Gw<CR>
-elseif has('mac')
-    map <leader>ga :Gw<CR>
-endif
+map <leader>gw :Gw<CR>
 map <leader>gc :Gcommit<CR>
 map <leader>gs :Gstatus<CR>
 
 " Fold
-if has('unix')
-    map <leader> fc :foldclose<CR>
-    map <leader> fo :foldopen<CR>
-elseif has('mac')
-    map <leader> c :foldclose<CR>
-    map <leader> o :foldopen<CR>
-endif
+map <leader> fc :foldclose<CR>
+map <leader> fo :foldopen<CR>
