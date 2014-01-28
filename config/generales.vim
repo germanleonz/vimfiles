@@ -42,3 +42,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 if version >= 703
     set cryptmethod=blowfish
 endif 
+
+"   Haskell
+au BufEnter *.hs compiler ghc
+let g:haddock_browser = "firefox"

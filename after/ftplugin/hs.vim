@@ -8,4 +8,3 @@ setlocal shiftwidth=4
 setlocal smarttab
 setlocal shiftround
 setlocal nojoinspaces
-
