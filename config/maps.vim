@@ -26,7 +26,7 @@ map <Leader>h :noh<cr>
 map <silent> <Leader>n :NERDTreeToggle<CR>
 
 " Desplegar TagbarToggle
-nmap <silent> <Leader>t :TagbarToggle<CR>
+nmap <silent> <Leader><Leader>t :TagbarToggle<CR>
 
 " Gundo
 nnoremap <F5> :GundoToggle<CR>
@@ -44,7 +44,12 @@ map <leader>s vaw
 map <leader>gw :Gw<CR>
 map <leader>gc :Gcommit<CR>
 map <leader>gs :Gstatus<CR>
+map <leader>gd :Gdiff<CR>
+map <leader>gb :Gblame<CR>
 
 " Fold
 map <leader> fc :foldclose<CR>
 map <leader> fo :foldopen<CR>
+
+" Emmet
+let g:user_emmet_leader_key='<C-E>'

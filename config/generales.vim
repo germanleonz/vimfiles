@@ -3,11 +3,11 @@
 "
 
 "   Colorscheme
-colorscheme delek
+colorscheme distinguished
 set bg=dark
 
 syntax on
-filetype on
+"filetype on
 filetype plugin indent on
 filetype plugin on
 set number
@@ -43,6 +43,15 @@ if version >= 703
     set cryptmethod=blowfish
 endif 
 
+"   Set default browser
+let g:netrw_browser_viewer = "google-chrome"
+
 "   Haskell
 au BufEnter *.hs compiler ghc
-let g:haddock_browser = "firefox"
+let g:haddock_browser = "google-chrome"
+
+"   Powerline
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+set laststatus=2
