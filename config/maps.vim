@@ -23,7 +23,7 @@ map <leader>= ma<CR>:0<CR>gg=G<CR>'a
 map <Leader>h :noh<cr>
 
 " Desplegar NERDTree
-map <silent> <Leader>n :NERDTreeToggle<CR>
+map <silent> <Leader><Leader>n :NERDTreeToggle<CR>
 
 " Desplegar TagbarToggle
 nmap <silent> <Leader><Leader>t :TagbarToggle<CR>
