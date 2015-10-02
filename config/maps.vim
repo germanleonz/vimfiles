@@ -53,3 +53,6 @@ map <leader> fo :foldopen<CR>
 
 " Emmet
 let g:user_emmet_leader_key='<C-E>'
+
+" Ack (ack word under cursor)
+noremap <Leader><Leader>a :Ack <cword><CR>
