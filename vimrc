@@ -20,6 +20,7 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 "   Directory used for backup and swap files
 set backupdir=~/.vim_backup
+set directory=~/.vim_swap
 
 "   Auxiliary files
 source ~/.vim/config/maps.vim
