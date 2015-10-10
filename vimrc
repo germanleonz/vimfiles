@@ -27,7 +27,7 @@ set backupdir=~/.vim_backup
 
 "   Directory used for swap files
 if !isdirectory($HOME . "/.vim_swap")
-    call mkdir(~$HOME . "/.vim_swap", "p")
+    call mkdir($HOME . "/.vim_swap", "p")
 endif
 set directory=~/.vim_swap
 
