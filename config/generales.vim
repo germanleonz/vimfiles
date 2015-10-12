@@ -3,7 +3,7 @@
 "
 
 "   Colorscheme
-colorscheme distinguished
+colorscheme vividchalk
 set bg=dark
 
 syntax on
