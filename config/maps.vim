@@ -20,7 +20,7 @@ map <Leader>w :w!<cr>
 map <leader>= ma<CR>:0<CR>gg=G<CR>'a
 
 " Quitar sombreado
-map <Leader>h :noh<cr>
+map <silent> <Leader>h :noh<cr>
 
 " Desplegar NERDTree
 map <silent> <Leader><Leader>n :NERDTreeToggle<CR>
