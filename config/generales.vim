@@ -4,7 +4,7 @@
 
 "   Colorscheme
 colorscheme vividchalk
-set bg=dark
+set bg=light
 
 syntax on
 "filetype on
