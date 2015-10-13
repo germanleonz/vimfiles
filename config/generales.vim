@@ -3,8 +3,8 @@
 "
 
 "   Colorscheme
-colorscheme distinguished
-set bg=dark
+colorscheme vividchalk
+set bg=light
 
 syntax on
 "filetype on
