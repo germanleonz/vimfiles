@@ -4,29 +4,36 @@
 
 let mapleader = ','
 
+"   Vim configuration editing and reprocessing
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :source $MYVIMRC<CR>
 
+"   Easier window navigation
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-H> <C-W>h
+nnoremap <C-L> <C-W>l
+
 " Agregar tab despues de '='
-nmap <silent> <Leader>a= :Tab /=<CR>
-vmap <silent> <Leader>a= :Tab /=<CR>
+nmap <silent> <leader>a= :Tab /=<CR>
+vmap <silent> <leader>a= :Tab /=<CR>
 
 " Agregar tab despues de ':'
-nmap <silent> <Leader>a: :Tab /:\zs<CR>
-vmap <silent> <Leader>a: :Tab /:\zs<CR>
+nmap <silent> <leader>a: :Tab /:\zs<CR>
+vmap <silent> <leader>a: :Tab /:\zs<CR>
 
 " Guardar
-map <Leader>w :w!<cr>
+map <leader>w :w!<cr>
 map <leader>= ma<CR>:0<CR>gg=G<CR>'a
 
 " Quitar sombreado
-map <silent> <Leader>h :noh<cr>
+map <silent> <leader>h :noh<cr>
 
 " Desplegar NERDTree
-map <silent> <Leader><Leader>n :NERDTreeToggle<CR>
+map <silent> <leader><leader>n :NERDTreeToggle<CR>
 
 " Desplegar TagbarToggle
-nmap <silent> <Leader><Leader>t :TagbarToggle<CR>
+nmap <silent> <leader><leader>t :TagbarToggle<CR>
 
 " Gundo
 nnoremap <F5> :GundoToggle<CR>
@@ -55,4 +62,4 @@ map <leader> fo :foldopen<CR>
 let g:user_emmet_leader_key='<C-E>'
 
 " Ack (ack word under cursor)
-noremap <Leader><Leader>a :Ack <cword><CR>
+noremap <leader><leader>a :Ack <cword><CR>

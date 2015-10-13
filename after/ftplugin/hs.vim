@@ -1,5 +1,5 @@
 "
-"	Configuracion para archivos de Haskell
+"	Haskell files configuration
 "
 setlocal tabstop=8
 setlocal expandtab

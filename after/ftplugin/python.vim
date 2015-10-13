@@ -1,5 +1,5 @@
 "
-"	Configuracion para archivos Python
+"	Python files configuration
 "
 setlocal expandtab
 setlocal shiftwidth=4

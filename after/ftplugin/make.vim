@@ -1,5 +1,5 @@
 "
-"	Configuracion para los archivos Makefile
+"	Makefile files configuration
 "
 setlocal noexpandtab
 

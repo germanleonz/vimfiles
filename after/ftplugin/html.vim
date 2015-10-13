@@ -1,5 +1,5 @@
 "
-"	Configuracion para los archivos HTML
+"	HTML files configuration
 "
 setlocal shiftwidth=2
 setlocal tabstop=2
