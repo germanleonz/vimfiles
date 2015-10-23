@@ -52,7 +52,7 @@ map <leader>gw :Gw<CR>
 map <leader>gc :Gcommit<CR>
 map <leader>gs :Gstatus<CR>
 map <leader>gd :Gdiff<CR>
-map <leader>gb :Gblame<CR>
+map <silent> <leader>gb :Gblame<CR>
 
 " Fold
 map <leader> fc :foldclose<CR>
