@@ -3,7 +3,8 @@
 "
 
 "   Colorscheme
-colorscheme vividchalk
+let g:solarized_termcolors=256
+colorscheme solarized
 set bg=dark
 
 syntax on
