@@ -3,7 +3,7 @@
 "	.vimrc
 "
 
-"	Pathogen plugin (automatization of the VIM runtime path handling of plugins)
+"   Pathogen plugin (automatization of the VIM runtime path handling of plugins)
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
