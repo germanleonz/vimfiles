@@ -56,6 +56,7 @@ The plugins are installed as git submodules to maintain consistency with each pl
 * [Align](https://github.com/vim-scripts/Align): Help folks to align text, eqns, declarations, tables, etc
 * [vim-jade](https://github.com/digitaltoad/vim-jade): Vim Jade template engine syntax highlighting and indention
 * [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides): A Vim plugin for visually displaying indent levels in code
+* [vim-json](https://github.com/elzr/vim-json): A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.
 
 ### HTML 
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim plugin which provides support for expanding abbreaviations similar to [emmet](http://emmet.io/)
