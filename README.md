@@ -47,7 +47,7 @@ The plugins are installed as git submodules to maintain consistency with each pl
 * [gundo](https://github.com/sjl/gundo.vim): Plugin to visualize your Vim undo tree
 * [snipMate](https://github.com/garbas/vim-snipmate): TextMate's snippets in Vim
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): "A Git wrapper so awesome, it should be illegal"
-* [vim-gitgutter](https://github.com/airblade/vim-gitgutter): "A Vim plugin which shows a git diff in the gutter (sign column) and stages/reverts hunks."
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter): A Vim plugin which shows a git diff in the gutter (sign column) and stages/reverts hunks.
 * [powerline](https://github.com/powerline/powerline): Statusline plugin for Vim
 * [tabular](https://github.com/godlygeek/tabular): Vim script for text filtering and alignment
 * [vim-repeat](https://github.com/tpope/vim-repeat): Enable repeating supported plugin maps with "."
@@ -55,6 +55,7 @@ The plugins are installed as git submodules to maintain consistency with each pl
 * [surround](https://github.com/tpope/vim-surround): Quoting/parenthesizing made simple
 * [Align](https://github.com/vim-scripts/Align): Help folks to align text, eqns, declarations, tables, etc
 * [vim-jade](https://github.com/digitaltoad/vim-jade): Vim Jade template engine syntax highlighting and indention
+* [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides): A Vim plugin for visually displaying indent levels in code
 
 ### HTML 
 * [emmet-vim](https://github.com/mattn/emmet-vim): Vim plugin which provides support for expanding abbreaviations similar to [emmet](http://emmet.io/)
