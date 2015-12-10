@@ -48,8 +48,8 @@ map <leader>a :badd
 map <leader>s vaw
 
 " Fugitive
-map <leader>gw :Gw<CR>
-map <leader>gr :Gr<CR>
+map <leader>gw :Gwrite<CR>
+map <leader>gr :Gread<CR>
 map <leader>gc :Gcommit<CR>
 map <silent> <leader>gs :Gstatus<CR>
 map <silent> <leader>gd :Gdiff<CR>
