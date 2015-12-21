@@ -60,6 +60,5 @@ set laststatus=2
 "   Open Markdown files with Chrome
 autocmd BufEnter *.md exe 'noremap <Leader><Leader>m :silent !google-chrome %:p<CR><C-L>'
 
-"   Syntastic + JSHint
-let g:syntastic_javascript_checkers = ['jshint']
+"   Syntastic 
 let g:syntastic_check_on_open = 1
