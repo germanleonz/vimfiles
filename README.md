@@ -68,6 +68,7 @@ The plugins are installed as git submodules to maintain consistency with each pl
 
 ### JavaScript
 * [vim-javascript](https://github.com/pangloss/vim-javascript): Vastly improved Javascript indentation and syntax support in Vim.
+* [tern-for-vim](https://github.com/ternjs/tern_for_vim): Tern plugin for Vim
 
 ### Ruby
 * [vim-rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
