@@ -62,3 +62,6 @@ autocmd BufEnter *.md exe 'noremap <Leader><Leader>m :silent !google-chrome %:p<
 
 "   Syntastic 
 let g:syntastic_check_on_open = 1
+
+" Command-T configuration
+let g:CommandTMaxFiles=50000
