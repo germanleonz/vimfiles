@@ -3,8 +3,8 @@
 "
 
 "   Colorscheme
-let g:solarized_termcolors=256
 colorscheme solarized
+let g:solarized_termcolors=256
 set bg=dark
 
 syntax on
@@ -64,4 +64,10 @@ autocmd BufEnter *.md exe 'noremap <Leader><Leader>m :silent !google-chrome %:p<
 let g:syntastic_check_on_open = 1
 
 " Command-T configuration
-let g:CommandTMaxFiles=50000
+let g:CommandTMaxHeight = 30
+let g:CommandTMaxFiles = 100000
+let g:CommandTInputDebounce = 200
+let g:CommandTFileScanner = 'watchman'
+
+" NERDTree
+let NERDTreeIgnore = ['\.pyc$']
