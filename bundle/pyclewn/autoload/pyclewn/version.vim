@@ -1,4 +1,4 @@
 
 function pyclewn#version#RuntimeVersion()
-    return "2.1.b76fab6ae524"
+    return "2.2.461bc2ead40d"
 endfunction
