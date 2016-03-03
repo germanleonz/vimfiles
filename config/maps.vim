@@ -17,25 +17,32 @@ nnoremap <C-K> <C-W>k
 nnoremap <C-H> <C-W>h
 nnoremap <C-L> <C-W>l
 
-" Agregar tab despues de '='
+" Add a tab after '='
 nmap <silent> <leader>a= :Tab /=<CR>
 vmap <silent> <leader>a= :Tab /=<CR>
 
-" Agregar tab despues de ':'
+" Add a tab after ':'
 nmap <silent> <leader>a: :Tab /:\zs<CR>
 vmap <silent> <leader>a: :Tab /:\zs<CR>
 
-" Guardar
+" Save file
 map <leader>w :w!<cr>
+
+" Save and exit
+map <leader>x :x<cr>
+
+" Exit
+map <leader>q :q<cr>
+
 map <leader>= ma<CR>:0<CR>gg=G<CR>'a
 
-" Quitar sombreado
+" Remove highlighting
 map <silent> <leader>h :noh<cr>
 
-" Desplegar NERDTree
+" Open NERDTree
 map <silent> <leader><leader>n :NERDTreeToggle<CR>
 
-" Desplegar TagbarToggle
+" TagbarToggle
 nmap <silent> <leader><leader>t :TagbarToggle<CR>
 
 " Gundo
@@ -44,10 +51,10 @@ nnoremap <F5> :GundoToggle<CR>
 " Set paste
 map <leader>p :set paste<cr>
 
-" Abrir archivo en buffer
+" Open file in new buffer
 map <leader>a :badd
 
-" Seleccionar palabra
+" Select word
 map <leader>s vaw
 
 " Fugitive
@@ -67,3 +74,7 @@ let g:user_emmet_leader_key='<C-E>'
 
 " Ack (ack word under cursor)
 noremap <leader><leader>a :Ack <cword><CR>
+
+" vim-expand-region mappings
+vmap v <Plug>(expand_region_expand)
+vmap <C-v> <Plug>(expand_region_shrink)
