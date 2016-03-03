@@ -2,7 +2,10 @@
 "	Maps
 "
 
-let mapleader = ','
+let mapleader = "\<Space>"
+
+"   Map Esc key to jk in insert mode
+imap jk <Esc>
 
 "   Vim configuration editing and reprocessing
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
