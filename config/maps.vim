@@ -26,7 +26,8 @@ nmap <silent> <leader>a: :Tab /:\zs<CR>
 vmap <silent> <leader>a: :Tab /:\zs<CR>
 
 " Save file
-map <leader>w :w!<cr>
+noremap <leader>w :w!<cr>
+inoremap <leader>w <C-c>:w<CR>
 
 " Save and exit
 map <leader>x :x<cr>
@@ -81,3 +82,6 @@ noremap <leader><leader>a :Ack <cword><CR>
 " vim-expand-region mappings
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
+
+" Most Recently Used (MRU)
+map <leader>f :MRU<CR>
