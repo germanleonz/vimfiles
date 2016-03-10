@@ -70,8 +70,8 @@ map <silent> <leader>gd :Gdiff<CR>
 map <silent> <leader>gb :Gblame<CR>
 
 " Fold
-map <leader> fc :foldclose<CR>
-map <leader> fo :foldopen<CR>
+map <leader> zc :foldclose<CR>
+map <leader> zo :foldopen<CR>
 
 " Emmet
 let g:user_emmet_leader_key='<C-E>'
