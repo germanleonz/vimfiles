@@ -33,7 +33,7 @@ inoremap <leader>w <C-c>:w<CR>
 map <leader>x :x<cr>
 
 " Exit
-map <leader>q :q<cr>
+map <silent> <leader>q :q<cr>
 
 map <leader>= ma<CR>:0<CR>gg=G<CR>'a
 
