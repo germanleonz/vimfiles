@@ -57,6 +57,9 @@ map <leader>a :badd
 " Select word
 map <leader>s vaw
 
+" Quick macro
+noremap Q @q
+
 " Fugitive
 map <leader>gw :Gwrite<CR>
 map <leader>gr :Gread<CR>
