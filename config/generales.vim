@@ -80,3 +80,7 @@ let g:CommandTFileScanner = 'watchman'
 
 " NERDTree
 let NERDTreeIgnore = ['\.pyc$']
+
+" No backups or swap files
+set nobackup
+set noswapfile
