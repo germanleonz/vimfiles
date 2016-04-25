@@ -27,7 +27,6 @@ vmap <silent> <leader>a: :Tab /:\zs<CR>
 
 " Save file
 noremap <leader>w :w!<cr>
-inoremap <leader>w <C-c>:w<CR>
 
 " Save and exit
 map <leader>x :x<cr>
