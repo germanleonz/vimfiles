@@ -29,7 +29,7 @@ This repo includes my personal vimrc configuration, mappings and plugins selecti
 * To add a new plugin as a git submodule
 
     ```shell
-    git submodule add https://github.com/usuario/plugin.git bundle/plugin
+    git submodule add https://github.com/github_user/plugin.git bundle/plugin
     ```
 
 ## Installed plugins
