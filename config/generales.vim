@@ -34,9 +34,9 @@ set foldmethod=indent
 set foldlevel=99
 
 "	Indenting
-set expandtab       "Usa softtabs las tabs se vuelven espacios
-set tabstop=4       "Los tabs seran de cuatro espacios
-set shiftwidth=4    "Indenta usando cuatro espacios 
+set expandtab       " When using softtabs, tabs become spaces
+set tabstop=4       " Tabs will be four spaces wide
+set shiftwidth=4    " Indent using four spaces
 set smartindent
 set autoindent
 
@@ -54,7 +54,7 @@ if version >= 703
 endif 
 
 "   Set default browser
-let g:netrw_browser_viewer = "google-chrome"
+let g:fugitive_github_domains = ['https://github.channel-corp.com']
 
 "   Haskell
 au BufEnter *.hs compiler ghc
@@ -69,9 +69,6 @@ set laststatus=2
 "   Open Markdown files with Chrome
 autocmd BufEnter *.md exe 'noremap <Leader><Leader>m :silent !google-chrome %:p<CR><C-L>'
 
-"   Syntastic 
-let g:syntastic_check_on_open = 1
-
 " Command-T configuration
 let g:CommandTMaxHeight = 30
 let g:CommandTMaxFiles = 100000
@@ -79,8 +76,13 @@ let g:CommandTInputDebounce = 200
 let g:CommandTFileScanner = 'watchman'
 
 " NERDTree
-let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = ['\.pyc$', '\.javac$']
 
 " No backups or swap files
 set nobackup
 set noswapfile
+
+"   Syntastic 
+let g:syntastic_check_on_open = 1
+let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_javascript_eslint_exec="~/.npm-global/lib/node_modules/eslint/bin/eslint.js"
