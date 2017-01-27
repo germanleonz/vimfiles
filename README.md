@@ -5,19 +5,13 @@ This repo includes my personal vimrc configuration, mappings and plugins selecti
 * Installation:  
 
     ```shell
-    git clone https://github.com/germanleonz/vimfiles.git ~/.vim
+    git clone --recursive https://github.com/germanleonz/vimfiles.git ~/.vim
     ```
 
 * Link the user's vimrc to the one in the repository
 
     ```shell
     ln -s ~/.vim/vimrc ~/.vimrc
-    ```
-
-* On the repository's root folder run
-
-    ```shell
-    git submodule init && git submodule update
     ```
 
 * To update the plugins
